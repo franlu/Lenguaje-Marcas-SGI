@@ -1,0 +1,33 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: lightseagreen;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+footer {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
+}
+
+span {
+  font-size: 12px;
+}
+
+#p-inicial {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
