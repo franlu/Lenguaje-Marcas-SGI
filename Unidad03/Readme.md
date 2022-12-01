@@ -3,3 +3,4 @@
 ### Hojas de estilos
 
 * [Ejemplos](ejemplos)
+* [Practicas](practicas)
