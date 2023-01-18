@@ -1,0 +1,47 @@
+body {
+    background-color: lightslategray;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: darkblue;
+  }
+  
+  h1 {
+    text-decoration: underline;
+  }
+  
+  section {
+    background-color: lightgrey;
+  }
+  
+  section > p {
+    text-align: justify;
+  }
+  
+  section#recuadro1 {
+    width: 15%;
+    margin: 0 auto;
+    padding: 0.5%;
+    border-radius: 3%;
+  
+    animation-name: animacion2;
+    animation-duration: 3.33s; /* 10 en total*/
+    animation-iteration-count: 3;
+    
+  }
+  
+  @keyframes animacion2 { 
+    from {
+      color: red;
+    }
+    to {
+      transform: translateY(200px);
+      color: blue;
+    }
+  };
+  

@@ -1,0 +1,47 @@
+
+body {
+  background-color: lightseagreen;
+}
+
+main {
+  text-align: center;
+  color: aliceblue;
+}
+
+h1, h2 {
+  text-align: center;
+  color: darkblue;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+section {
+  background-color: burlywood;
+}
+
+section > p {
+  text-align: justify;
+}
+
+section#recuadro1 {
+  width: 15%;
+  margin: 0 auto;
+  padding: 0.5%;
+  border-radius: 3%;
+
+  animation-name: animacion1;
+  animation-duration: 2s;
+  
+}
+
+@keyframes animacion1 { 
+  from {
+    color: red;
+  }
+  to {
+    transform: translateY(200px);
+    color: blue;
+  }
+};
