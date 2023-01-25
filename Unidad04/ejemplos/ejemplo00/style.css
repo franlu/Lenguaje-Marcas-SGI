@@ -1,0 +1,44 @@
+body {
+    background-color:#c5e063ff;
+}
+
+header {
+    width: 40%;
+    margin: 0 auto;
+}
+
+h1 {
+    color:#507255ff;
+    text-align: center;
+}
+
+h2 {
+    color:#488b49ff;
+    text-align: center;
+}
+
+p {
+    color: #4aad52ff;
+    text-align: justify;
+}
+
+.tabla {
+    width: 40%;
+    margin: 0 auto;
+    display: table;
+}
+
+.fila {
+    display: table-row;
+}
+
+.celda {
+    display: table-cell;
+}
+.
+/* Paleta */
+.amazon{color: #507255ff;}
+.middle-green{color: #488b49ff;}
+.green-pantone{color: #4aad52ff;}
+.bud-green{color: #6eb257ff;}
+.june-bud{color: #c5e063ff;}
