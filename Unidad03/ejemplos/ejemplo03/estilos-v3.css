@@ -1,0 +1,47 @@
+body {
+    background-color:#003eb0;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #0099f6;
+  }
+  
+  h1 {
+    text-decoration: underline;
+  }
+  
+  section {
+    background-color: #ffcd55;
+  }
+  
+  section > p {
+    text-align: justify;
+  }
+  
+  section#recuadro1 {
+    width: 15%;
+    margin: 0 auto;
+    padding: 0.5%;
+    border-radius: 3%;
+  
+    animation-name: animacion3;
+    animation-duration: 1s; /* 10 en total*/
+    animation-iteration-count: 3;
+    animation-delay: 3s;
+    
+  }
+  
+  @keyframes animacion3 { 
+    from {
+        color: black ;
+    }
+    to {
+        transform: translateY(20%);
+        color:#003eb0;
+    }
+  };

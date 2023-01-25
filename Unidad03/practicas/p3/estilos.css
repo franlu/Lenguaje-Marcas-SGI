@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 10% 40%;
+  border: 1px lightgray solid;
+}
+
+ul {
+  list-style: none;
+  text-align: center
+}
+
+li {
+  padding: 3%;
+}
+
+li:hover {
+  background-color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+}
+
+a:visited {
+  color:black;
+}
