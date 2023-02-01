@@ -2,7 +2,7 @@
 
 ### Actividades
 
-* [actividad00](actividad00) - Ejemplo con display: table table-row table-cell
+* [actividad01](actividad01) - Ejemplo con layout:
 
 
 ### Actividades Propuestas
