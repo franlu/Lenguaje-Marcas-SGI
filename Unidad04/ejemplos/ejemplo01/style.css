@@ -1,0 +1,74 @@
+/* Paleta */
+.maximum-blue-purple{color: #b2abf2ff;}
+.claret{color: #89043dff;}
+.turquoise{color: #2fe6deff;}
+.prussian-blue{color: #1c3041ff;}
+.sea-green-crayola{color: #18f2b2ff;}
+.onyx{color: #313638;}
+
+body {
+    background-color:#18f2b2ff;;
+}
+
+header {
+    width: 40%;
+    margin: 0 auto;
+}
+
+h1 {
+    color:#1c3041ff;;
+    text-align: center;
+}
+
+h2 {
+    color:#b2abf2ff;;
+    text-align: center;
+}
+
+p {
+    color:#89043dff;
+    text-emphasis-style: bold;
+    text-align: center;
+}
+
+footer {
+    width: 40%;
+    height: 10%;
+    margin: 1% auto 0 auto;
+    background-color: #89043dff;
+    color: white;
+    text-align: center;
+}
+
+.utility-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent_container {
+    
+    background: rgb(255, 187, 98);
+    padding: 10px;
+    width: 40%;
+    height: 8em;
+    margin: 0 auto;
+    
+}
+
+.child_1,
+
+.child_2,
+
+.child_3 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background: #313638; 
+    border: 5px solid #F06543;
+    width: 15%;
+    height: 5em;
+    color: #E8E9EB;
+    border-radius: 5px;
+    margin: 5px;
+}
