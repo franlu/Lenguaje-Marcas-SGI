@@ -5,6 +5,10 @@
 .prussian-blue{color: #1c3041ff;}
 .sea-green-crayola{color: #18f2b2ff;}
 .onyx{color: #313638;}
+.naranjilla {
+    color: #F06543;
+    font-weight: bold;
+}
 
 body {
     background-color:#18f2b2ff;;
@@ -31,6 +35,10 @@ p {
     text-align: center;
 }
 
+section {
+    text-align: center;
+}
+
 footer {
     width: 40%;
     height: 10%;
@@ -40,26 +48,22 @@ footer {
     text-align: center;
 }
 
-.utility-flex {
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.parent_container {
+.contenedor {
     
     background: rgb(255, 187, 98);
     padding: 10px;
     width: 40%;
     height: 8em;
     margin: 0 auto;
+    border-radius: 2%;
     
 }
-
-.child_1,
-
-.child_2,
-
-.child_3 {
+.cajita {
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -71,4 +75,64 @@ footer {
     color: #E8E9EB;
     border-radius: 5px;
     margin: 5px;
+}
+
+.hijo2 {
+
+    position: static;
+    bottom: 40px;
+    right: 50px;
+    border: 8px solid white;
+
+}
+
+.hijo5 {
+    position: relative;
+    bottom: 40px;
+    right: 50px;
+    border: 8px solid purple;
+}
+
+.flex-columna {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+    
+.contenedor2 {
+    
+    background: rgb(255, 187, 98);
+    padding: 10px;
+    width: 40%;
+    /* height: 400px; */
+    margin: auto;
+    /* position: relative; */
+}
+    
+.hijo8 {
+    
+    position: fixed;
+    bottom: 100px;
+    right: 400px;
+    border: 8px solid purple;
+    
+}
+
+.hijo11 {
+
+    position: sticky;
+    top: 0px;
+    border: 8px solid #00802c;
+    
+}
+
+.lorem {
+    color: darkslateblue;
+    text-align: justify;
+    width: 40%;
+    margin: 0 auto;
+
 }
