@@ -1,0 +1,13 @@
+.contenedor {
+  display: flex; /* Establece un contenedor de flexbox */
+  flex-direction: row; /* Establece la dirección principal de los elementos */
+  justify-content: center; /* Centra los elementos en el eje principal */
+  align-items: center; /* Centra los elementos en el eje transversal */
+}
+
+.item {
+  flex: 1; /* Establece la relación de tamaño entre los elementos */
+  margin: 10px; /* Agrega un margen entre los elementos */
+  text-align: center; /* Centra el texto dentro del elemento */
+  background-color: #ccc; /* Agrega un fondo gris a los elementos */
+}
