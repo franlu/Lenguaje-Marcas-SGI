@@ -1,0 +1,28 @@
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  .flex-item {
+    background: tomato;
+    padding: 10px;
+    border: 5px solid red;
+    
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  /* flex: grow-factor shrink-factor flex-basis-value;*/
+  .flex1 { flex: 1 1 20em; }
+  .flex2 { flex: 2 2 20em; } 
