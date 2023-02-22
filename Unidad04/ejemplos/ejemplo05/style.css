@@ -8,7 +8,7 @@ body {
     /* Ancho de las columnas de la cuadrícula, usando fracciones */
     grid-template-columns: 1fr 1fr 1fr;
     /* Altura de las filas de la cuadrícula */
-    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
     /* Espacio entre los elementos de la cuadrícula */
     gap: 10px;
     background-color:  #AD8E70;
@@ -56,4 +56,9 @@ body {
   .item-6 {
     grid-column: 2 / 3; /* segunda columna */
     grid-row: 3 / 4; /* tercera fila */
+  }
+  
+  .item-7 {
+    grid-column: 1 / 4; /* Todas las columnas*/
+    grid-row: 4 / 4; /* Toda la 4ª fila*/
   }
