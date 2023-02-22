@@ -8,10 +8,11 @@ body {
     /* Ancho de las columnas de la cuadrícula, usando fracciones */
     grid-template-columns: 1fr 1fr 1fr;
     /* Altura de las filas de la cuadrícula */
-    grid-template-rows: 100px 100px;
+    grid-template-rows: 100px 100px 100px;
     /* Espacio entre los elementos de la cuadrícula */
     gap: 10px;
     background-color:  #AD8E70;
+    padding: 0.65em;
   }
   
   /* Elementos dentro de la cuadrícula */
@@ -20,7 +21,8 @@ body {
     justify-content: center;
     align-items: center;
     /* Si el font-size del <html> es 16px, 1rem sería igual a 16px en cualquier parte del documento*/
-    font-size: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
     background-color: #FFEBB7;
   }
     
