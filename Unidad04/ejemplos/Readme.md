@@ -4,6 +4,7 @@
 * **ejemplo01** - Propiedad POSITION
 * **ejemplo02** - Flexbox
 * **ejemplo03** - Flexbox (flex: grow-factor shrink-factor flex-basis-value;)
+* **ejemplo04** - Flexbox (flex: grow-factor shrink-factor flex-basis-value;)
 
 
 ### Recursos
