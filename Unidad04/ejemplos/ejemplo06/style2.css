@@ -1,0 +1,41 @@
+body {
+    background-color: cadetblue;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    grid-auto-columns: 100px;
+    grid-gap: 10px;
+}
+
+.item {
+    border: 1px solid black;
+    font-size: 1.5em;
+    display: grid;
+    place-items: center; /* centrar contenido vertical y horizontalmente */
+}
+
+/* Seleccionamos el primer elemento item */
+.item:first-child {
+    padding: 0.5%;
+}
+
+/* Seleccionamos el segundo elemento item */
+.item:nth-of-type(2) {
+    padding: 1%;
+}
+
+/* Seleccionamos los elementos item impares */
+.item:nth-child(odd) {
+    background-color: green;
+    color: white;
+}
+
+/* Seleccionamos los elementos item pares */
+.item:nth-child(even) {
+    background-color: #3366CC;
+    color: yellow;
+}

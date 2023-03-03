@@ -6,6 +6,8 @@
 * **ejemplo03** - Flexbox (flex: grow-factor shrink-factor flex-basis-value;)
 * **ejemplo04** - Flexbox (flex: grow-factor shrink-factor flex-basis-value;)
 * **ejemplo05** - GRID - 3 fracciones
+* **ejemplo06** - GRID - Colocación Implicita
+* **ejemplo07** - FLEX & GRID
 
 
 ### Recursos
