@@ -15,7 +15,7 @@ Materiales para el módulo Lenguaje de Marcas y Sistemas de Gestión de la Infor
 
 ### :space_invader: Alumn@s
 
-Listado de [alumn@s](queridos-alumnos.md) con sus respectivos perfiles en Github para el curso 22/23.
+Listado de [alumn@s](queridos-alumnos.md) con sus respectivos perfiles en Github para el curso 24/25.
 
 ### :link: Recursos
 
