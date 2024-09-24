@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo con p&aacute;rrafos</title>
+    <style>
+        
+        h1 {
+            text-align: center;
+            color: darkgreen;
+        }
+
+        /* todos los párrafos*/
+        p {
+            /* arriba derecha abajo izquierda */
+            color: yellow;
+            border-color: green;
+            background-color: cadetblue;
+            border-style: dotted solid double dashed;
+            border-width: 5px;
+        }
+
+        /* párrafos con id="segundo" */
+        #segundo {
+
+            color: blue;
+            border-color: orange;
+            border-width: 10px;
+            border-style: solid;
+        }
+
+        #cuarto {
+            line-height: 2.1; /* normal | 3.2 | 20 px | 150% */
+            text-align: justify;
+            border-style: solid;
+        }
+
+        #quinto {
+            margin-top: 10px;
+            margin-right: 50px;
+            margin-bottom: 10px;
+            margin-left:5dvb;
+            border-style: solid;
+        }
+
+        #footer {
+            text-align: center;
+            color: black;
+            background-color: white;
+            border-style: none;
+        }
+
+        /* cualquier etiqueta con class="rojo" */
+        .rojo {
+            color: red;
+            border-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>PÁRRAFOS con estilo :-)</h1>
+    <hr />
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia amet illo sed harum eveniet quidem, inventore mollitia blanditiis architecto vero nisi. Repellendus reprehenderit corporis beatae deleniti sint enim eligendi quasi?</p>
+
+    <p id="segundo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi atque, dignissimos quidem iste libero temporibus impedit tenetur veniam alias odit. Numquam repellat fuga fugiat consectetur tempore laudantium sint dolorum magnam.</p>
+
+    <h6 class="rojo">Color ROJO</h6>
+    <p class="rojo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed deserunt laborum nisi ad totam aspernatur? Vitae maxime enim possimus laudantium repellat veritatis, impedit corrupti porro accusantium voluptas. Itaque, natus voluptatum!</p>
+
+    <p id="cuarto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis assumenda, dignissimos dolore vero mollitia obcaecati cupiditate omnis, aperiam deserunt nobis ad culpa, neque quisquam quaerat harum facere cum odio!</p>
+
+    <h5>Margin</h5>
+    <p id="quinto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, exercitationem inventore? Ex asperiores impedit ratione eius at dolores nulla aspernatur rerum reiciendis vel, possimus eaque itaque, sint quod voluptatibus eos.</p>
+
+    <h5>Padding</h5>
+    <p style="padding: 15px; border-color:blue; border-width:5px; border-style: solid;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis vitae nulla error. Unde possimus doloremque ullam magni excepturi vel ad quos, dolorum deleniti, expedita cumque suscipit nulla sequi cupiditate qui?</p>
+
+    <h5>Border Radius</h5>
+    <p style="border-radius: 15px; border-style: solid;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis vitae nulla error. Unde possimus doloremque ullam magni excepturi vel ad quos, dolorum deleniti, expedita cumque suscipit nulla sequi cupiditate qui?</p>
+
+    <hr />
+    
+    <p id="footer">Fran Lucena &copy;</p>
+
+</body>
+</html>
