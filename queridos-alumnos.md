@@ -5,6 +5,7 @@
 #### Curso 24/25
 
 * Mario G. - [mg9-d9](https://github.com/mg9-d9)
+* Jesús C. - [Jesus-Caballero](https://github.com/Jesus-Caballero)
 
 #### Curso 22/23
 * Manuel - [mromrey587](https://github.com/mromrey587/1-GSDAM-Lenguaje-De-Marcas)
