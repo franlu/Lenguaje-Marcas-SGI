@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Tablas en HTML5</title>
+    <style>
+
+        h1 {
+            text-align: center;
+            color: darkgreen;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 2px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: lightgreen;
+        }
+        caption {
+            caption-side: top;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplos de Tablas en HTML5</h1>
+
+    <!-- Tabla 1: Tabla básica con encabezado -->
+    <table>
+        <caption>Tabla 1: Calendario semanal</caption>
+        <thead>
+            <tr>
+                <th>Día</th>
+                <th>Actividad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>Estudio</td>
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <td>Trabajo</td>
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>Gimnasio</td>
+            </tr>
+            <tr>
+                <td>Jueves</td>
+                <td>Reunión</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>Cine</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Tabla 2: Tabla con colspan y rowspan -->
+    <table>
+        <caption>Tabla 2: Horario de Clases</caption>
+        <thead>
+            <tr>
+                <th>Horario</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:00 - 10:00</td>
+                <td rowspan="2">Matemáticas</td>
+                <td>Historia</td>
+                <td rowspan="3">Física</td>
+                <td>Química</td>
+                <td rowspan="2">Inglés</td>
+            </tr>
+            <tr>
+                <td>10:00 - 12:00</td>
+                <td>Geografía</td>
+                <td>Química</td>
+            </tr>
+            <tr>
+                <td>12:00 - 14:00</td>
+                <td colspan="2">Educación Física</td>
+                <td>Biología</td>
+                <td>Informática</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Tabla 3: Tabla con border-spacing y uso de colspan en el encabezado -->
+    <table style="border-spacing: 15px;">
+        <caption>Tabla 3: Ventas Trimestrales</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Producto</th>
+                <th>Enero</th>
+                <th>Febrero</th>
+                <th>Marzo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Producto A</td>
+                <td>Región 1</td>
+                <td>100</td>
+                <td>120</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>Región 2</td>
+                <td>80</td>
+                <td>90</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Producto B</td>
+                <td>Región 1</td>
+                <td>200</td>
+                <td>220</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Región 2</td>
+                <td>180</td>
+                <td>190</td>
+                <td>210</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Tabla 4: Tabla con celdas vacías y uso de atributos de accesibilidad -->
+    <table>
+        <caption>Tabla 4: Comparativa de Productos</caption>
+        <thead>
+            <tr>
+                <th>Características</th>
+                <th>Producto A</th>
+                <th>Producto B</th>
+                <th>Producto C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Precio</td>
+                <td>$100</td>
+                <td>$120</td>
+                <td>$90</td>
+            </tr>
+            <tr>
+                <td>Garantía</td>
+                <td>1 año</td>
+                <td>2 años</td>
+                <td>1 año</td>
+            </tr>
+            <tr>
+                <td>Disponibilidad</td>
+                <td>En stock</td>
+                <td></td> <!-- Celda vacía -->
+                <td>Agotado</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
