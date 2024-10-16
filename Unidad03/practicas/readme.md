@@ -1,6 +1,6 @@
 # Tema 3 - CSS
 
-### Practicas
+## Prácticas
 
 * [P1](p1) - selectores
 * [P2](p2) - pseudoselectores
