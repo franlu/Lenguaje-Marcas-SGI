@@ -1,103 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <nav>
-      <a href="#sobre-mi">Sobre mi</a>
-      <a href="#">Github</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-    <header id="cabecera">
-      <h1></h1>
-      <hr>
-      <h2></h2>
-      <img src="" alt="">
-      <br>
-      <blockquote></blockquote>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web del Taller Automotriz</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo-principal">Taller Automotriz El Rápido</h1>
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-      <section id="personal">
-        <!-- article es un elemento independiente dentro de la página. Si lo cambiamos de lugar
-             en la web sigue teniendo sentido dentro de la visión global de la web -->
-        <article id="sobre-mi">
-          <header>
-              <img src="" alt="Sobre mi">
-              <h2>Sobre mi</h2>
-          </header>
-          <!-- Incluye una descripción personal -->
-          <p></p>
-        </article>
-        <article id="formacion">
-          <header>
-            <h2></h2>
-            <img src="" alt="">
-          </header>
-          <!-- Incluye contenido relacionado con tu formación -->
-        </article>
-      </section>
-      <section id="skills">
-        <article id="hard-skills">
-          <header>
-            <h2>Hard-Skills</h2>
-            <img src="" alt="hard skills">
-          </header>
-          <ul>
-            <li>Frontend</li>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Añade tantas como sean necesarias</li>
-              </ul>
-            <li>Backend</li>
-              <ul>
-                <li>Java</li>
-                <li>PHP</li>
-                <li>Añade tantas como sean necesarias</li>
-              </ul>
-          </ul>
-        </article>
-        <article id="soft-skills">
-          <header>
-            <h2>Soft-Skills</h2>
-            <img src="" alt="Soft skills">
-          </header>
-          <ul>
-            <li>Liderazgo</li>
-            <li>Trabajo en equipo</li>
-            <li>Añade tantas como sean necesarias</li>
-          </ul>
-        </article>
-      </section>
-      <section id="contacto">
-        <article id="email">
-          <header>
-            <h2>Enviarme un mensaje</h2>
-            <img src="" alt="">
-          </header>
-          <!-- Añade un formulario de contacto para enviar via mail -->
-        </article>
-        <article id="social-networks">
-          <header>
-            <h2>Contacto</h2>
-            <img src="" alt="">
-          </header>
-          <!-- Añade datos de contacto y enlaces a rrss -->
-        </article>
-      </section>
-    </main>
+
+    <section id="servicios">
+        <h2>Servicios que Ofrecemos</h2>
+        <p class="descripcion">Revisión general del automóvil, cambio de aceite, reparación de frenos, y mucho más.</p>
+        <ul>
+            <li class="servicio">Cambio de aceite</li>
+            <li class="servicio">Reparación de frenos</li>
+            <li class="servicio">Alineación y balanceo</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p class="descripcion">Para más información, puedes llamarnos al 123-456-789 o enviarnos un correo a info@tallerelrapido.com.</p>
+        <p class="horario">Horario de Atención: Lunes a Viernes de 9:00 a 18:00.</p>
+    </section>
+
     <footer>
-      <section id="footer-izq">
-        <!-- Añade contenido libremente, apropiado y semanticamente correcto -->
-      </section>
-      <section id="footer-centro">
-        <!-- Añade contenido libremente, apropiado y semanticamente correcto -->
-      </section>
-      <section id="footer-dcha">
-        <!-- Añade contenido libremente, apropiado y semanticamente correcto -->
-      </section>
+        <p>&copy; 2024 Taller Automotriz El Rápido. Todos los derechos reservados.</p>
     </footer>
-  </body>
+</body>
 </html>

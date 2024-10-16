@@ -1,6 +1,6 @@
 # Tema 3 - CSS
 
-### Hojas de estilos
+## Hojas de estilos
 
 * [Ejemplos](ejemplos)
 * [Actividades](actividades)
