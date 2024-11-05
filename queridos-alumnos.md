@@ -8,6 +8,11 @@
 
 * Mario G. - [mg9-d9](https://github.com/mg9-d9)
 * Jesús C. - [Jesus-Caballero](https://github.com/Jesus-Caballero)
+* Mario A. - [MarioArjona15](https://github.com/marioarjona15)
+* Pablo M. - [pablomatas17](https://github.com/pablomatas17)
+* Javier C. - [javihelio](https://github.com/javihelio)
+* Jesús V. - [jesusvercas](https://github.com/jesusvercas)
+* Diego S. - [sanchezz3112](https://github.com/sanchezz3112)
 
 ## Curso 22/23
 
