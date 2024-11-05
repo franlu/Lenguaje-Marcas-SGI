@@ -2,7 +2,7 @@
 
 - El máximo número de etiquetas es de 114.
 
-- Tiempo disponible para hacer el test: 228 segundos.
+- Tiempo disponible para hacer el test: 180 segundos.
 
 - [Web para hacer el test](https://codepen.io/plfstr/full/zYqQeRw)
 
