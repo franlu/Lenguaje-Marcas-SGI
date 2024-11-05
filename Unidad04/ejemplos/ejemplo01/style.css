@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color:#18f2b2ff;;
+    background-color:#18f2b2ff;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 }
 
 h1 {
-    color:#1c3041ff;;
+    color:#1c3041ff;
     text-align: center;
 }
 
@@ -53,6 +53,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 .contenedor {
     
     background: rgb(255, 187, 98);
@@ -63,6 +64,7 @@ footer {
     border-radius: 2%;
     
 }
+
 .cajita {
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
