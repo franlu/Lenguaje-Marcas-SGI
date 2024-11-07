@@ -1,0 +1,33 @@
+body {
+    background-image: url(../img/fondo_morado.jpg);
+    background-size: 100%;
+}
+
+main {
+    background-color: lightgray;
+    width: 350px;
+    height: 400px;
+    margin: 50px auto 0 auto;
+    border-radius: 25px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+p {
+
+}
+
+form {
+    background-color: lightgray;
+}
