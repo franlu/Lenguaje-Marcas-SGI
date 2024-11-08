@@ -1,6 +1,9 @@
 body {
     background-image: url(../img/fondo_morado.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh; /* viewport heigth */
 }
 
 main {
