@@ -19,3 +19,19 @@
 | 7º        | 25          | PabloM     |
 | 8º        | 24          | Ruben      |
 | 9ª        | 20          | JesusV     |
+
+## Ranking 22/23
+
+| Posición  | Etiquetas   |  Nombre    |
+|:----------:|:-----------:|:----------:|
+| 1º        | 54          | IvanD      |
+| 2º        | 50          | Kevin      |
+| 3º        | 40          | Emilio     |
+| 4º        | 39          | Luis       |
+| 5º        | 37          | Gabriel    |
+| 6º        | 36          | Álvaro     |
+| 7º        | 36          | Antonio    |
+| 8ª        | 36          | Ivan       |
+| 9º        | 31          | Javier     |
+| 10ª       | 28          | David      |
+| 11ª       | 25          | Isaac      |
