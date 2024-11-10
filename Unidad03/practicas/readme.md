@@ -3,6 +3,8 @@
 ## Prácticas
 
 * [P1](p1) - selectores
-* [P2](p2) - pseudoselectores
+* P2 - pseudoselectores
 * [P3](p3) - listas
-* [P4](p4) - dos css diferentes para un mismo html
+* P4- dos css diferentes para un mismo html
+
+* [resA](resA) - formulario login
