@@ -1,1 +1,1 @@
-### Práctica 3:
+# Práctica 3

@@ -9,7 +9,6 @@
 * **ejemplo06** - GRID - Colocación Implicita
 * **ejemplo07** - FLEX & GRID
 
-
-### Recursos
+## Recursos
 
 * [Layout con media queries](https://codepen.io/chriscoyier/pen/vWEMWw)
