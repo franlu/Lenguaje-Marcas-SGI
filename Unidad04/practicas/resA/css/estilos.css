@@ -3,34 +3,56 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    height: 100vh; /* viewport heigth */
+    padding: 0;
+    text-align: center;
 }
 
 main {
-    background-color: lightgray;
-    width: 350px;
-    height: 400px;
-    margin: 50px auto 0 auto;
-    border-radius: 25px;
+    background-color: #f0f0f0;
+    width: 300px;
+    padding: 20px;
+    margin: 30px auto; /* Centrado horizontal y margen superior */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+form h1 {
+    font-size: 24px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 70%;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
 
 footer {
-    text-align: center;
+    margin-top: 20px;
 }
 
 footer p {
     color: white;
+    font-size: 16px;
 }
 
-a {
+footer a {
     color: orange;
     text-decoration: none;
 }
 
-p {
-
-}
-
-form {
-    background-color: lightgray;
+footer a:hover {
+    text-decoration: underline;
 }

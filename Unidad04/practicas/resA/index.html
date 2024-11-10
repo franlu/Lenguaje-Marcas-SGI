@@ -8,33 +8,41 @@
 </head>
 <body>
     <main>
-            <!--<form action="">
-                <h1>Login</h1>
+        <form action="">
+            <h1>Login</h1>
+            
+            <!-- Campo de usuario -->
+            <div class="input-container">
                 <label for="username">
                     <img src="./img/icono_usuario.png" alt="Usuario">
                 </label>
-                <input type="text">
+                <input type="text" id="username" name="username" placeholder="Username">
+            </div>
+
+            <!-- Campo de contraseña -->
+            <div class="input-container">
                 <label for="password">
                     <img src="./img/icono_candado.png" alt="Candado">
                 </label>
-                <input type="password">
-                <input type="checkbox">
-                <label for="question">Remember me&quest;</label>
-                <label for="forgot"><a href="http://www.google.es">Forgot your password</a></label>
+                <input type="password" id="password" name="password" placeholder="Password">
+            </div>
 
-                <button>Login</button>
-                <input id="submit" type="submit" value="Login">
-                
-            </form>-->
-        
+            <!-- Campo de recordar -->    
+            <div class="checkbox-container">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember me?</label>
+                <span class="forgot-password">
+                    <a href="http://www.google.es">Forgot your password?</a>
+                </span>
+            </div>
+
+            <!-- Botón de envío -->
+            <button type="submit">LOGIN</button>
+        </form>
     </main>
     <footer>
         <p>New here? <a href="http://www.google.com">Sing up</a></p>
-        
     </footer>
-    <!--<img src="./img/fondo_morado.jpg" alt="fondo de la web">
-    <img src="./img/fondo_login.jpg" alt="fondo para login">
-    <img src="./img/icono_candado.png" alt="Candado">
-    <img src="./img/icono_usuario.png" alt="Usuario">-->
+
 </body>
 </html>
