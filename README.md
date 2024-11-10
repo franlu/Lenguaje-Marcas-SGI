@@ -19,6 +19,10 @@ Listado de [alumn@s](queridos-alumnos.md) con sus respectivos perfiles en Github
 
 * [Ranking 24/25](tag-test.md)
 
+### CSS Dinner
+
+* [Ranking 24/25](css-dinner.md)
+
 ### :link: Recursos
 
 * [Cositas interesantes](cositas.md)
