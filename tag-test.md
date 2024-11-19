@@ -11,14 +11,15 @@
 | Posición  | Etiquetas   |  Nombre    |
 |:----------:|:-----------:|:----------:|
 | 1º        | 46          | MarioA     |
-| 2º        | 40          | PabloB     |
-| 3º        | 36          | JavierC    |
+| 2º        | 44          | JavierC    |
+| 3º        | 40          | PabloB     |
 | 4º        | 35          | MarioG     |
 | 5º        | 35          | JesusC     |
-| 6º        | 27          | DiegoS     |
-| 7º        | 25          | PabloM     |
-| 8º        | 24          | Ruben      |
-| 9ª        | 20          | JesusV     |
+| 6º        | 35          | Ruben      |
+| 7ª        | 31          | JesusV     |
+| 8º        | 30          | PabloM     |
+| 9º        | 27          | DiegoS     |
+
 
 ## Ranking 22/23
 
