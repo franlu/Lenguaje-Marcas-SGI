@@ -2,7 +2,8 @@
 
 ## Actividades
 
-* [actividad01](actividad01) - Ejemplo con layout:
+* [actividad00](actividad00) - Propiedad `position`
+* [actividad01](actividad01) - Ejemplo con layout
 
 ## Actividades Propuestas
 
