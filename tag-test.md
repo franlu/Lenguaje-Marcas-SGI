@@ -20,7 +20,6 @@
 | 8º        | 30          | PabloM     |
 | 9º        | 27          | DiegoS     |
 
-
 ## Ranking 22/23
 
 | Posición  | Etiquetas   |  Nombre    |
