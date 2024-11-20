@@ -1,0 +1,129 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif; /* Tipografía clásica */
+    background-color: #f4f1ea; /* Fondo color papel antiguo */
+    color: #333; /* Texto oscuro para buen contraste */
+    line-height: 1.6;
+}
+
+/* Encabezado (menú fijo) */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8b5e34; /* Marrón cálido */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    padding: 15px 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #f0d79e; /* Color crema */
+}
+
+/* Secciones */
+section {
+    padding: 100px 20px;
+    margin-top: 60px; /* Evita superposición con el menú */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #8b5e34; /* Tono marrón */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Botones de acción */
+button {
+    background-color: #8b5e34;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0d79e;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8b5e34;
+    color: white;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+/* Enlaces en el contenido */
+a {
+    color: #8b5e34;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #f0d79e;
+}
+
+/* Estilo de imágenes */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Estilo especial para citas */
+blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #8b5e34;
+    padding-left: 15px;
+    margin: 20px 0;
+    background-color: #f9f5f0;
+}
