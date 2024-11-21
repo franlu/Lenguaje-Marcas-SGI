@@ -1,4 +1,4 @@
-# CSS3 Dinner
+# CSS Dinner
 
 - El máximo nivel es de 32.
 
