@@ -1,11 +1,13 @@
 h1,
-h3,
 .images,
 .bloques {
     border: 1px solid black;
     text-align: center;
 }
 
+h3,h4 {
+    text-align: center;
+}
 .main {
     background-color: blue;
     height: 200px;
