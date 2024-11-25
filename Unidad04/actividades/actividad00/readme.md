@@ -1,60 +1,44 @@
-# Actividad 00: Propiedad `position` en CSS
-
-**Objetivo:** Aprender a utilizar la propiedad `position` en CSS para controlar el posicionamiento de elementos en una página web.
-
-## Instrucciones
-
-0. Crea una carpeta de trabajo `actividad00`.
-1. Crea un archivo `index.html` básico donde realizarás los ejercicios.
-2. Crea un archivo `estilos00.css` para aplicar los estilos a los ejercicios.
+# Actividad 00: Práctica de centrado horizontal en HTML y CSS
 
 ## Ejercicios
 
-### 1. Menú fijo en la parte superior
+1. **Centrar texto dentro de un contenedor:**
+   - Crea un archivo HTML con un contenedor `<div>` que tenga un ancho fijo de 300px.
+   - Escribe un texto dentro del contenedor.
+   - Usa la propiedad `text-align: center` en CSS para centrar horizontalmente el texto dentro del contenedor.
 
-- Crea un encabezado (`<header>`) que permanezca fijo en la parte superior de la pantalla mientras haces scroll.
-- Usa `position: fixed;`.
+2. **Centrar un elemento en línea:**
+   - Inserta una imagen pequeña en tu documento HTML.
+   - Usa la propiedad `text-align: center` en el contenedor para centrar la imagen.
 
-### 2. Caja centrada en la pantalla
+3. **Centrar un botón:**
+   - Crea un botón en HTML.
+   - Coloca el botón dentro de un contenedor y utiliza la propiedad `text-align: center` para centrarlo horizontalmente.
 
-- Crea un `<div>` con fondo de color que esté perfectamente centrado, tanto horizontal como verticalmente.
-- Usa `position: absolute;` o `position: fixed;` combinando con `top`, `left`, `transform`, etc.
+4. **Centrar un bloque con `margin`:**
+   - Crea un bloque `<div>` con un ancho fijo de 200px y un color de fondo.
+   - Usa la propiedad `margin: auto` para centrar el bloque horizontalmente en la página.
 
-### 3. Imagen con una etiqueta superpuesta
+5. **Centrar una lista horizontalmente:**
+   - Crea una lista desordenada `<ul>` con tres elementos.
+   - Usa CSS para que la lista se muestre horizontalmente (por ejemplo, aplicando `display: inline-block` en los elementos) y esté centrada usando `text-align: center` en el contenedor.
 
-- Coloca una imagen y usa un `<span>` para mostrar una etiqueta superpuesta en la esquina superior derecha de la imagen.
-- Usa `position: relative;` en el contenedor e `absolute` en el `<span>`.
+6. **Centrar un formulario:**
+   - Diseña un formulario sencillo con un campo de texto y un botón de envío.
+   - Usa `margin: auto` o `text-align: center` en el contenedor para centrar el formulario horizontalmente.
 
-### 4. Botón pegado al borde inferior
+7. **Centrar un texto en un bloque:**
+   - Crea un bloque `<div>` con un texto dentro.
+   - Usa `text-align: center` para centrar el texto horizontalmente dentro del bloque.
 
-- Añade un botón que se mantenga fijo en la esquina inferior derecha de la pantalla.
-- Usa `position: fixed;` con `bottom` y `right`.
+8. **Centrar un enlace:**
+   - Crea un enlace dentro de un contenedor.
+   - Usa CSS para centrar el enlace horizontalmente en el contenedor aplicando `text-align: center`.
 
-### 5. Cajas con efecto "stack"
+9. **Centrar múltiples imágenes:**
+   - Inserta tres imágenes pequeñas dentro de un contenedor.
+   - Usa `text-align: center` en el contenedor para centrar las imágenes horizontalmente.
 
-- Crea 3 cajas apiladas unas sobre otras con diferentes valores de `z-index`.
-- Experimenta con `position: relative;` y observa cómo el orden cambia con `z-index`.
+### Indicaciones
 
-### 6. Tooltip al pasar el ratón
-
-- Diseña un botón que al pasar el ratón muestre un texto (tooltip) flotante justo arriba de él.
-- Usa `position: relative;` para el botón y `absolute` para el tooltip.
-
-### 7. Fondo que se queda fijo
-
-- Coloca un fondo de color que permanezca fijo mientras haces scroll.
-- Usa `position: fixed;` con un contenedor.
-
-### 8. Banner que desaparece al hacer scroll
-
-- Crea un banner en la parte superior que use `position: sticky;` y desaparezca cuando el usuario pase de cierto punto al hacer scroll.
-
-### 9. Imagen como fondo de un texto
-
-- Usa `position: absolute;` para colocar una imagen detrás de un texto sin que el texto sea afectado.
-- Asegúrate de que el texto sea legible.
-
-### 10. Menú flotante
-
-- Crea un menú lateral que se mantenga fijo al desplazarte, pero que esté posicionado en el borde izquierdo.
-- Usa `position: fixed;` y define `top` y `left` para posicionarlo.
+- Cada ejercicio debe realizarse en un archivo HTML independiente.
