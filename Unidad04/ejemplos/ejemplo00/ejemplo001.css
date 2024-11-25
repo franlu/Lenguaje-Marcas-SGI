@@ -1,0 +1,31 @@
+h1,
+.images,
+.bloques {
+    border: 1px solid black;
+    text-align: center;
+}
+
+h3,h4 {
+    text-align: center;
+}
+.main {
+    background-color: blue;
+    height: 200px;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.bloques {
+    background-color: red;
+    height: 400px;
+    margin: 40px auto;
+    width: 60%;
+}
+
+.bloques div {
+    background-color: chartreuse;
+    display: inline-block;
+    height: 200px;
+    margin-top: 100px;
+    width: 25%;
+}
