@@ -1,7 +1,7 @@
 # Ejemplos
 
 * **ejemplo00** - Propiedad display con valores table table-row table-cell
-* **ejemplo01** - Propiedad POSITION
+* **ejemplo01** - Propiedad POSITION - FLOAT
 * **ejemplo02** - Flexbox
 * **ejemplo03** - Flexbox (flex: grow-factor shrink-factor flex-basis-value;)
 * **ejemplo04** - Flexbox (flex: grow-factor shrink-factor flex-basis-value;)

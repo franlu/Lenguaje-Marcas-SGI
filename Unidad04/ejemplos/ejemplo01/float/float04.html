@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Layout con Float</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos del encabezado */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Estilos del contenido principal y la barra lateral */
+        .main-content {
+            float: left;
+            width: 70%; /* Ocupa el 70% del espacio */
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .sidebar {
+            float: left;
+            width: 30%; /* Ocupa el 30% del espacio */
+            padding: 20px;
+            background-color: #ddd;
+        }
+
+        /* Estilos del pie de página */
+        footer {
+            clear: both; /* Asegura que el pie de página se coloque debajo de los elementos flotantes */
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Asegurar que el contenedor de contenido se ajuste al flujo */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Mi Página Web</h1>
+    </header>
+
+    <!-- Contenedor principal con clearfix para evitar problemas con el float -->
+    <div class="clearfix">
+        <!-- Contenido principal -->
+        <div class="main-content">
+            <h2>Bienvenidos a mi página</h2>
+            <p>Este es el contenido principal de la página. Aquí puedes incluir texto, imágenes y cualquier otra información relevante para los visitantes. El contenido fluye naturalmente a la izquierda debido al uso de la propiedad float en el diseño.</p>
+            <p>Esta es una página de ejemplo para mostrar cómo organizar el layout usando la propiedad float en CSS.</p>
+        </div>
+
+        <!-- Barra lateral -->
+        <div class="sidebar">
+            <h3>Barra Lateral</h3>
+            <p>Este es un ejemplo de una barra lateral flotante. En ella, puedes agregar enlaces, información adicional o anuncios.</p>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>

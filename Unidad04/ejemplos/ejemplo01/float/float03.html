@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 3: Clearfix</title>
+    <style>
+        /* Estilo para el contenedor general */
+        .box {
+            width: 100%; /* El contenedor ocupa todo el ancho disponible */
+            background-color: lightblue;
+        }
+
+        /* Estilo para la caja izquierda */
+        .left-box {
+            float: left; /* La caja flota a la izquierda */
+            width: 45%; /* La caja ocupa el 45% del espacio */
+            margin-right: 5%; /* Espacio entre las cajas */
+            background-color: lightgreen;
+            padding: 20px;
+        }
+
+        /* Estilo para la caja derecha */
+        .right-box {
+            float: left; /* La caja flota a la izquierda */
+            width: 45%; /* La caja ocupa el 45% del espacio */
+            background-color: lightcoral;
+            padding: 20px;
+        }
+
+        /* Técnica de clearfix para evitar que el contenedor colapse */
+        .clearfix::after {
+            content: "";
+            clear: both; /* Limpia los flotantes */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Contenedor principal con clearfix -->
+    <div class="box clearfix">
+        <!-- Caja izquierda flotante -->
+        <div class="left-box">
+            <h2>Caja izquierda</h2>
+            <p>Esta caja está flotando a la izquierda. Cuando se usa float, el contenedor puede no ajustarse correctamente al contenido flotante, lo que hace que los siguientes elementos queden fuera del flujo.</p>
+        </div>
+
+        <!-- Caja derecha flotante -->
+        <div class="right-box">
+            <h2>Caja derecha</h2>
+            <p>Esta caja está flotando a la derecha. Para solucionar el problema del contenedor, usamos la propiedad clearfix.</p>
+        </div>
+    </div>
+
+</body>
+</html>

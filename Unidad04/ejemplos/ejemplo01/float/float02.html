@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 2: Dos columnas flotantes</title>
+    <style>
+        /* Estilo para la columna izquierda */
+        .left-column {
+            float: left; /* La columna se coloca a la izquierda */
+            width: 45%; /* La columna ocupa el 45% del espacio */
+            margin-right: 5%; /* Agrega espacio entre las columnas */
+        }
+
+        /* Estilo para la columna derecha */
+        .right-column {
+            float: left; /* La columna se coloca a la izquierda */
+            width: 45%; /* La columna ocupa el 45% del espacio */
+        }
+
+        /* Estilo para limpiar los flotantes */
+        .container {
+            overflow: hidden; /* Esto asegura que el contenedor ajuste su altura para abarcar las columnas flotantes */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Columna izquierda -->
+        <div class="left-column">
+            <h2>Columna izquierda</h2>
+            <p>Este es el contenido de la columna izquierda. La propiedad float hace que el contenido flote a la izquierda, permitiendo que se cree un diseño en columnas.</p>
+        </div>
+
+        <!-- Columna derecha -->
+        <div class="right-column">
+            <h2>Columna derecha</h2>
+            <p>Este es el contenido de la columna derecha. Como ambas columnas están flotando, se colocan una al lado de la otra, aprovechando todo el espacio disponible.</p>
+        </div>
+    </div>
+
+</body>
+</html>

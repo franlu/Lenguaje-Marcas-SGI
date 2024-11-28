@@ -7,3 +7,7 @@ Ejemplos de uso de la propiedad POSITION para los valores: static, relative, abs
 ## Ejemplo 001
 
 Ejemplo de menú fijado en la parte superior
+
+## Float
+
+Uso de la propiedad ´float´
