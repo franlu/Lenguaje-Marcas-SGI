@@ -10,17 +10,20 @@
             float: left; /* La columna se coloca a la izquierda */
             width: 45%; /* La columna ocupa el 45% del espacio */
             margin-right: 5%; /* Agrega espacio entre las columnas */
+            background-color: bisque;
         }
 
         /* Estilo para la columna derecha */
         .right-column {
             float: left; /* La columna se coloca a la izquierda */
             width: 45%; /* La columna ocupa el 45% del espacio */
+            background-color: ghostwhite;
         }
 
         /* Estilo para limpiar los flotantes */
         .container {
             overflow: hidden; /* Esto asegura que el contenedor ajuste su altura para abarcar las columnas flotantes */
+            background-color: lightseagreen;
         }
     </style>
 </head>
@@ -30,13 +33,20 @@
         <!-- Columna izquierda -->
         <div class="left-column">
             <h2>Columna izquierda</h2>
-            <p>Este es el contenido de la columna izquierda. La propiedad float hace que el contenido flote a la izquierda, permitiendo que se cree un diseño en columnas.</p>
+            <p>
+                Este es el contenido de la columna izquierda. La propiedad float 
+                hace que el contenido flote a la izquierda, permitiendo que se 
+                cree un diseño en columnas.
+            </p>
         </div>
 
         <!-- Columna derecha -->
         <div class="right-column">
             <h2>Columna derecha</h2>
-            <p>Este es el contenido de la columna derecha. Como ambas columnas están flotando, se colocan una al lado de la otra, aprovechando todo el espacio disponible.</p>
+            <p>
+                Este es el contenido de la columna derecha. Como ambas columnas están flotando,
+                se colocan una al lado de la otra, aprovechando todo el espacio disponible.
+            </p>
         </div>
     </div>
 
