@@ -2,6 +2,8 @@
 
 - El máximo nivel es de 32.
 
+- Tiempo disponible para hacer el test: 16 minutos.
+
 - [Web para hacer el reto](https://flukeout.github.io/)
 
 ## Ranking 24/25
