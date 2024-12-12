@@ -10,6 +10,12 @@
 - [Awesome Github Profiles](https://zzetao.github.io/awesome-github-profile/)
 - [Github Pages](https://pages.github.com/)
 
+## Prentaciones con HMTL, CSS y JS
+
+- [Flowtime.js](https://marcolago.github.io/flowtime.js/)
+- [Impress.js](https://impress.js.org/)
+- [Reveal.js](https://revealjs.com/) 
+
 ## Los 5 Frameworks CSS más Usados en la Actualidad
 
 1. **Bootstrap**
