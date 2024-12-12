@@ -8,12 +8,12 @@
 
 | Posición  | Nivel       |  Nombre    |
 |:----------:|:-----------:|:----------:|
-| 1º        | 21          | JesusC     |
-| 2º        | 16          | JavierC    |
-| 3º        | 16          | PabloM     |
-| 4ª        | 16          | JesusV     |
-| 5º        | 16          | MarioA     |
-| 6º        | 16          | PabloB     |
-| 7º        | 12          | MarioG     |
-| 8º        | 07          | Ruben      |
-| 9º        | 07          | DiegoS     |
+| 1º        | 29          | JesusC     |
+| 2º        | 26          | MarioA     |
+| 3º        | 21          | PabloB     |
+| 4ª        | 21          | JesusV     |
+| 5º        | 16          | MarioG     |
+| 6º        | 12          | PabloM     |
+| 7º        | 09          | JaviC      |
+| 8º        | 08          | DiegoS     |
+| 9º        | 07          | RubenR     |
