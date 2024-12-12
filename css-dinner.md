@@ -18,4 +18,4 @@
 | 6º        | 12          | PabloM     |
 | 7º        | 09          | JaviC      |
 | 8º        | 08          | DiegoS     |
-| 9º        | 07          | RubenR     |
+| 9º        | 08          | RubenR     |
