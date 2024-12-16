@@ -73,4 +73,4 @@
 
 
 ## Entrega:
-- El código completo debe ser entregado en un solo archivo comprimido que incluya todos los archivos HTML y CSS necesarios.
+- El código completo debe ser entregado en un solo archivo comprimido que incluya, para cada parte una carpeta, que incluya todos los archivos HTML y CSS necesarios. 
