@@ -16,7 +16,7 @@
 - El texto debe ajustarse correctamente al lado derecho de la imagen. (5 puntos)
 - La imagen debe estar flotando a la izquierda, con un margen de separación entre la imagen y el texto. (5 puntos)
 
-**Puntuación total para Parte 1: 25 puntos**
+**Puntuación total para Parte 1: 30 puntos**
 
 ---
 
@@ -32,7 +32,7 @@
 - Dos columnas deben flotar una al lado de la otra. (5 puntos)
 - El contenedor debe ajustarse correctamente a la altura de las columnas flotantes. (5 puntos)
 
-**Puntuación total para Parte 2: 25 puntos**
+**Puntuación total para Parte 2: 30 puntos**
 
 ---
 
@@ -66,7 +66,7 @@
 - El pie de página debe estar debajo de las secciones flotantes sin superponerse. (5 puntos)
 - El contenedor debe ajustarse correctamente con clearfix. (5 puntos)
 
-**Puntuación total para Parte 4: 25 puntos**
+**Puntuación total para Parte 4: 45 puntos**
 
 
 ---
