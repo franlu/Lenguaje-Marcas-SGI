@@ -4,6 +4,18 @@
 
 * Fran (profe) :point_up: - [franlu](https://github.com/franlu).
 
+## Curso 25/26
+
+* Martín - []()
+* Javi - []()
+* Raúl - []()
+* Juanjo - []()
+* Ismael - []()
+* Jesús - []()
+* Diego - []()
+* Beatriz - []()
+* Ahmed - []()
+
 ## Curso 24/25
 
 * Mario G. - [mg9-d9](https://github.com/mg9-d9)
