@@ -6,15 +6,15 @@
 
 ## Curso 25/26
 
-* Martín - []()
-* Javi - []()
-* Raúl - []()
-* Juanjo - []()
-* Ismael - []()
-* Jesús - []()
-* Diego - []()
-* Beatriz - []()
-* Ahmed - []()
+* Martín - [martinmat08](https://github.com/martinmat08)
+* Javi - [javierds1007](https://github.com/javierds1007)
+* Raúl - [gitrjshub](https://github.com/gitrjshub)
+* Juanjo - [juanjoxgthb](https://github.com/juanjoxgthb)
+* Ismael - [ismaelalbag7](https://github.com/ismaelalbag7)
+* Jesús - [jesusarjona10](https://github.com/jesusarjona10)
+* Diego - [sanchezz3112](https://github.com/sanchezz3112)
+* Beatriz - [beaatriz07](https://github.com/beaatriz07)
+* Ahmed - [ahmid07](https://github.com/ahmid07)
 
 ## Curso 24/25
 
