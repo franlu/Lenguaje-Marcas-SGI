@@ -6,6 +6,21 @@
 
 - [Web para hacer el test](https://codepen.io/plfstr/full/zYqQeRw)
 
+## Ranking 25/26
+
+| Posición  | Etiquetas   |  Nombre    |
+|:----------:|:-----------:|:----------:|
+| 1º        | 30           | Diego      |
+| 2º        | 29           | Ismael     |
+| 3º        | 25           | Martín     |
+| 4º        | 22           | Raúl       |
+| 5º        | 17           | Jesús      |
+| 6º        | 13           | Ahmed      |
+| 7ª        | 11           | Beatriz    |
+| 8º        | 10           | Javi       |
+| 9º        | 10           | Juanjo     |
+
+
 ## Ranking 24/25
 
 | Posición  | Etiquetas   |  Nombre    |

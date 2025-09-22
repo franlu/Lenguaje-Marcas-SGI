@@ -17,11 +17,11 @@ Listado de [alumn@s](queridos-alumnos.md) con sus respectivos perfiles en Github
 
 ### Html5 Tags Memory Test
 
-* [Ranking 24/25](tag-test.md)
+* [Ranking](tag-test.md)
 
 ### CSS Dinner
 
-* [Ranking 24/25](css-dinner.md)
+* [Ranking](css-dinner.md)
 
 ### :link: Recursos
 
