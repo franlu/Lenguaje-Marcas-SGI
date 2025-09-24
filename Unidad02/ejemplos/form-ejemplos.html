@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario con diferentes elementos</title>
+</head>
+<body>
+  <h1>Formulario de registro</h1>
+
+  <form action="/procesar" method="post">
+
+    <!-- Agrupación de datos personales -->
+    <fieldset>
+      <legend>Datos personales</legend>
+
+      <!-- Diferentes tipos de input -->
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" min="0" max="120"><br><br>
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required><br><br>
+
+      <label for="fecha">Fecha de nacimiento:</label>
+      <input type="date" id="fecha" name="fecha"><br><br>
+    </fieldset>
+
+    <!-- Radio buttons -->
+    <fieldset>
+      <legend>Género</legend>
+      <label><input type="radio" name="genero" value="hombre"> Hombre</label><br>
+      <label><input type="radio" name="genero" value="mujer"> Mujer</label><br>
+      <label><input type="radio" name="genero" value="otro"> Otro</label>
+    </fieldset>
+
+    <!-- Checkboxes -->
+    <fieldset>
+      <legend>Aficiones</legend>
+      <label><input type="checkbox" name="aficiones" value="lectura"> Lectura</label><br>
+      <label><input type="checkbox" name="aficiones" value="deporte"> Deporte</label><br>
+      <label><input type="checkbox" name="aficiones" value="musica"> Música</label>
+    </fieldset>
+
+    <!-- Lista desplegable -->
+    <label for="pais">País:</label>
+    <select id="pais" name="pais">
+      <option value="es">España</option>
+      <option value="mx">México</option>
+      <option value="ar">Argentina</option>
+      <option value="co">Colombia</option>
+    </select>
+    <br><br>
+
+    <!-- Lista de elementos con datalist -->
+    <label for="ciudad">Ciudad:</label>
+    <input list="ciudades" id="ciudad" name="ciudad">
+    <datalist id="ciudades">
+      <option value="Madrid">
+      <option value="Barcelona">
+      <option value="Valencia">
+      <option value="Sevilla">
+    </datalist>
+    <br><br>
+
+    <!-- Área de texto -->
+    <label for="comentarios">Comentarios:</label><br>
+    <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+    <br><br>
+
+    <!-- Botones -->
+    <button type="submit">Enviar</button>
+    <button type="reset">Restablecer</button>
+
+  </form>
+</body>
+</html>
