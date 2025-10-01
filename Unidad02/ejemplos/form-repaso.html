@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de repaso</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend>Rellenar</legend>
+            <input type="radio">Inglés <br>
+            <input type="radio">Alemán <br>
+            <input type="radio">Frances<br>
+            <br>
+            <select>
+                <option value="usb">USB</option>
+                <option value="paralelo">Paralelo</option>
+                <option value="PS2">PS2</option>
+            </select>
+            <br>
+            <br>
+            <label>Nombre:</label>
+            <input type="text">
+            <br>
+            <br>
+            <label>Apellidos:</label>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Indica tus preferencias</legend>
+
+            <select>
+                <option value="">Hombre</option>
+                <option value="">Mujer</option>
+            </select>
+            <br>
+            <br>
+            <label for="">DNI: </label>
+            <input 
+                type="text" 
+                placeholder="Introduzca su DNI" 
+                pattern="[0-9]{8}[A-Za-z]{1}" 
+                title="Debe poner 8 números y una letra" 
+                minlength="9" 
+                maxlength="9" />
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
