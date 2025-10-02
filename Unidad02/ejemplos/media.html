@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Laboratorio Hacker — Ejemplos de audio, video, iframe y canvas</title>
+</head>
+<body>
+  <h1>Laboratorio Hacker — Ejemplos multimedia (solo HTML)</h1>
+  <p>Colección de ejemplos de las etiquetas <code>&lt;audio&gt;</code>, <code>&lt;video&gt;</code>, <code>&lt;iframe&gt;</code> y <code>&lt;canvas&gt;</code> usando una estética temática "hacker". No hay CSS ni JavaScript, solo HTML.</p>
+
+  <hr>
+  <h2>1. <code>&lt;audio&gt;</code> — Sonidos de aviso y ambiente</h2>
+  <p>Reproductor con controles y varias fuentes (mp3/ogg). Incluye texto alternativo si no se soporta audio.</p>
+  <audio controls preload="none">
+    <!-- Fuentes de ejemplo públicas -->
+    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+    Tu navegador no soporta la etiqueta <code>audio</code>. Descarga el audio desde <a href="https://www.w3schools.com/html/horse.mp3">aquí</a>.
+  </audio>
+
+  <p>Reproductor alternativo (auditivo continuo):</p>
+  <audio controls loop>
+    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    Reproductor de audio no soportado.
+  </audio>
+
+  <hr>
+  <h2>2. <code>&lt;video&gt;</code> — Clips y capturas "hacker"</h2>
+  <p>Video con controles, varias fuentes y subtítulos de ejemplo.</p>
+  <video controls width="640" height="360" preload="metadata">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+    <!-- Subtítulos (archivo de ejemplo en WebVTT) -->
+    <track kind="subtitles" srclang="es" label="Español" src="https://gist.githubusercontent.com/anonymous/6a4b2/raw/example.vtt" default>
+    Tu navegador no soporta la etiqueta <code>video</code>. Puedes descargar el video <a href="https://www.w3schools.com/html/mov_bbb.mp4">aquí</a>.
+  </video>
+
+  <p>Video con <code>poster</code> (imagen previa) y sin controles — útil para mostrar el aspecto de un reproductor personalizado (no hay JS aquí):</p>
+  <video width="480" height="270" poster="https://via.placeholder.com/480x270?text=LAB+HACKER" preload="metadata">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Video no soportado por el navegador.
+  </video>
+
+  <hr>
+  <h2>3. <code>&lt;iframe&gt;</code> — Paneles y contenidos embebidos</h2>
+  <p>Iframe que intenta embeber una página sobre hackers (si el sitio lo permite). Si la página bloquea el embedding, verás una página en blanco o un mensaje del navegador.</p>
+
+  <h3>a) Página informativa</h3>
+  <iframe src="https://es.wikipedia.org/wiki/Hacker" width="800" height="400" title="Artículo sobre hackers (Wikipedia)">Tu navegador no soporta iframes.</iframe>
+
+  <h3>b) Video embebido (YouTube) — panel de demostración</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/aqz-KE-bpKQ" title="Video de ejemplo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <h3>c) Panel de consola falso (contenido remoto permitido)</h3>
+  <iframe src="https://example.org" width="600" height="200" title="Consola remota de ejemplo">Consola no disponible.</iframe>
+
+  <hr>
+  <h2>4. <code>&lt;canvas&gt;</code> — Área gráfica (sin JS, solo marcado)</h2>
+  <p>El elemento <code>canvas</code> requiere JavaScript para dibujar en él. Aquí mostramos varios <code>canvas</code> con texto alternativo explicativo — sirven como ejemplo de uso y atributos.</p>
+
+  <h3>a) Canvas principal</h3>
+  <canvas id="pantalla" width="640" height="200">Este canvas está vacío porque no se puede usar JavaScript en este ejemplo. Normalmente se dibuja con scripts.</canvas>
+
+  <h3>b) Canvas pequeño etiquetado</h3>
+  <canvas id="hud" width="300" height="100">HUD: (requiere JS para dibujar indicadores)</canvas>
+
+  <p>Si en el futuro añades JavaScript tendrías un <code>getContext('2d')</code> y dibujarías líneas, texto y gráficos. Aquí solo usamos el elemento HTML como placeholder.</p>
+
+  <hr>
+  <h2>5. Fragmentos y buenas prácticas</h2>
+  <ul>
+    <li>Usa <code>&lt;source&gt;</code> dentro de <code>&lt;audio&gt;</code> y <code>&lt;video&gt;</code> para ofrecer múltiples formatos.</li>
+    <li>Incluye texto alternativo dentro de los elementos multimedia para navegadores antiguos o cuando el contenido esté bloqueado.</li>
+    <li>Los <code>&lt;iframe&gt;</code> pueden estar bloqueados por políticas <code>X-Frame-Options</code> del servidor embebido; comprueba la compatibilidad del destino.</li>
+    <li><code>&lt;canvas&gt;</code> por sí solo no muestra nada útil sin JavaScript; siempre añade alternativas accesibles.</li>
+  </ul>
+
+  <hr>
+  <footer>
+    <p>Laboratorio Hacker — Ejemplos educativos. Archivo solo HTML — sin CSS ni JavaScript.</p>
+  </footer>
+</body>
+</html>
