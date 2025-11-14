@@ -5,9 +5,6 @@
 - [W3C HTML Validator](https://validator.w3.org/)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-- [Búsqueda de tecnologías en una web](https://builtwith.com/es/)
-- [URL Scanner](https://urlscan.io/)
-
 ## Github
 
 - [Github Profile Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
@@ -18,7 +15,7 @@
 
 - [Flowtime.js](https://marcolago.github.io/flowtime.js/)
 - [Impress.js](https://impress.js.org/)
-- [Reveal.js](https://revealjs.com/)
+- [Reveal.js](https://revealjs.com/) 
 
 ## Los 5 Frameworks CSS más Usados en la Actualidad
 
