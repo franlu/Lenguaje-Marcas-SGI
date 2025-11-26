@@ -1,0 +1,85 @@
+:root{
+      --size:56px;               /* tamaño del botón */
+      --gap:12px;
+      --bg:#fff;
+      --fg:#222;
+      --ring: 3px;
+    }
+
+    /* reset mínimo */
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:linear-gradient(180deg,#f6f8fb,#ffffff);
+      color:var(--fg);
+      padding:24px;
+    }
+
+    /* contenedor */
+    .social-nav{
+      display:flex;
+      gap:var(--gap);
+      align-items:center;
+      background:var(--bg);
+      padding:18px;
+      border-radius:14px;
+      box-shadow:0 6px 22px rgba(10,20,40,0.08);
+    }
+
+    .social-nav ul{
+      list-style:none;
+      margin:0;
+      padding:0;
+      display:flex;
+      gap:var(--gap);
+      align-items:center;
+    }
+
+    .social-nav a{
+      display:inline-grid;
+      place-items:center;
+      width:var(--size);
+      height:var(--size);
+      border-radius:12px;
+      text-decoration:none;
+      background:transparent;
+      transition:transform .18s ease, background-color .18s ease, box-shadow .18s ease;
+      color:inherit;
+      position:relative;
+      outline: none;
+    }
+
+    .social-nav a:focus{
+      box-shadow: 0 0 0 4px rgba(21,156,228,0.14), 0 6px 18px rgba(10,20,40,0.06);
+      transform:translateY(-2px);
+    }
+
+    .social-nav a:hover{
+      transform:translateY(-3px);
+      box-shadow:0 10px 24px rgba(10,20,40,0.09);
+    }
+
+    /* iconos SVG que se adaptan tamaño */
+    .social-nav svg{width:26px;height:26px;display:block}
+
+    /* colores por marca (usando data-brand) */
+    .social-nav a[data-brand="facebook"]:hover{background:#1877F2; color:#fff}
+    .social-nav a[data-brand="x"]:hover{background:#0A0A0A; color:#fff}
+    .social-nav a[data-brand="instagram"]:hover{background: radial-gradient(circle at 30% 30%, #fccc63 0%, #f77737 30%, #c32aa3 60%, #405de6 100%); color:#fff}
+    .social-nav a[data-brand="linkedin"]:hover{background:#0A66C2; color:#fff}
+    .social-nav a[data-brand="youtube"]:hover{background:#FF0000; color:#fff}
+    .social-nav a[data-brand="tiktok"]:hover{background:linear-gradient(180deg,#69C9D0,#EE1D52); color:#fff}
+    .social-nav a[data-brand="github"]:hover{background:#171515; color:#fff}
+
+    /* texto oculto para accesibilidad */
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+    /* variante compacta en pantallas pequeñas */
+    @media (max-width:420px){
+      :root{--size:48px}
+    }
