@@ -1,10 +1,8 @@
-# Actividad práctica guiada: "Domina los selectores CSS"
+# Domina los selectores CSS
 
 **Objetivo:** Identificar, escribir y aplicar correctamente los
 selectores básicos de CSS: por etiqueta, id, clase, descendientes, hijos
 directos, agrupados y pseudo--clases simples.
-
-------------------------------------------------------------------------
 
 ## Ejercicio 1: Selectores por etiqueta
 
@@ -19,7 +17,7 @@ Copia este HTML en tu editor:
 **Tarea:** - Todos los `<p>` deben ser **azules**\
 - Todos los `<h2>` deben ser **rojos**
 
-------------------------------------------------------------------------
+
 
 ## Ejercicio 2: Selectores por clase
 
@@ -33,7 +31,7 @@ Añade al HTML:
 **Tarea:** - `.importante` debe aparecer en **negrita**\
 - `.aviso` debe aparecer en **color naranja**
 
-------------------------------------------------------------------------
+
 
 ## Ejercicio 3: Selector por ID
 
@@ -48,7 +46,6 @@ Añade:
 - Sube la especificidad modificando solo el CSS (usa etiqueta + id o
 clase + id)
 
-------------------------------------------------------------------------
 
 ## Ejercicio 4: Selector descendiente
 
@@ -65,7 +62,6 @@ Añade:
 **Tarea:** - Haz que solo el `<p>` dentro de `.contenedor` aparezca en
 **verde**
 
-------------------------------------------------------------------------
 
 ## Ejercicio 5: Selector hijo directo (`>`)
 
@@ -88,7 +84,6 @@ Añade:
 **Tarea:** - Haz que solo los `li` hijos directos de `.menu` tengan
 **fondo gris claro**
 
-------------------------------------------------------------------------
 
 ## Ejercicio 6: Agrupación de selectores
 
@@ -103,7 +98,6 @@ h1, h2, h3 {
 }
 ```
 
-------------------------------------------------------------------------
 
 ## Ejercicio 7: Pseudo--clases simples
 
@@ -118,7 +112,6 @@ Añade:
 **rojos**\
 - Con `a:active`, al hacer clic deben ponerse **verdes**
 
-------------------------------------------------------------------------
 
 ## Ejercicio 8: Selectores combinados
 
