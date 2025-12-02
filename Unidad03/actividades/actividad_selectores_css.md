@@ -14,10 +14,10 @@ Copia este HTML en tu editor:
 <h2>Este es un título</h2>
 ```
 
-**Tarea:** - Todos los `<p>` deben ser **azules**\
+**Tarea:**
+
+- Todos los `<p>` deben ser **azules**
 - Todos los `<h2>` deben ser **rojos**
-
-
 
 ## Ejercicio 2: Selectores por clase
 
@@ -28,10 +28,10 @@ Añade al HTML:
 <p class="aviso">Este párrafo es un aviso.</p>
 ```
 
-**Tarea:** - `.importante` debe aparecer en **negrita**\
+**Tarea:**
+
+- `.importante` debe aparecer en **negrita**
 - `.aviso` debe aparecer en **color naranja**
-
-
 
 ## Ejercicio 3: Selector por ID
 
@@ -41,11 +41,12 @@ Añade:
 <h3 id="titulo-principal">Título principal de la página</h3>
 ```
 
-**Tarea:** - Aplica al ID `titulo-principal` un **tamaño de letra de
-24px**\
+**Tarea:**
+
+- Aplica al ID `titulo-principal` un **tamaño de letra de
+24px**
 - Sube la especificidad modificando solo el CSS (usa etiqueta + id o
 clase + id)
-
 
 ## Ejercicio 4: Selector descendiente
 
@@ -59,9 +60,9 @@ Añade:
 <p>Texto fuera del contenedor.</p>
 ```
 
-**Tarea:** - Haz que solo el `<p>` dentro de `.contenedor` aparezca en
-**verde**
+**Tarea:**
 
+- Haz que solo el `<p>` dentro de `.contenedor` aparezca en **verde**
 
 ## Ejercicio 5: Selector hijo directo (`>`)
 
@@ -81,15 +82,17 @@ Añade:
 </ul>
 ```
 
-**Tarea:** - Haz que solo los `li` hijos directos de `.menu` tengan
-**fondo gris claro**
+**Tarea:**
 
+- Haz que solo los `li` hijos directos de `.menu` tengan **fondo gris claro**
 
 ## Ejercicio 6: Agrupación de selectores
 
-**Tarea:** - Agrupa `h1`, `h2` y `h3` para que compartan:\
-- color: morado\
-- fuente: Arial
+**Tarea:**
+
+- Agrupa `h1`, `h2` y `h3` para que compartan:
+  - color: morado
+  - fuente: Arial
 
 Ejemplo:
 
@@ -97,7 +100,6 @@ Ejemplo:
 h1, h2, h3 {
 }
 ```
-
 
 ## Ejercicio 7: Pseudo--clases simples
 
@@ -108,10 +110,10 @@ Añade:
 <a href="#">Enlace 2</a>
 ```
 
-**Tarea:** - Con `a:hover`, al pasar el ratón los enlaces deben ponerse
-**rojos**\
-- Con `a:active`, al hacer clic deben ponerse **verdes**
+**Tarea:**
 
+- Con `a:hover`, al pasar el ratón los enlaces deben ponerse **rojos**
+- Con `a:active`, al hacer clic deben ponerse **verdes**
 
 ## Ejercicio 8: Selectores combinados
 
@@ -122,5 +124,6 @@ Añade:
 <p class="aviso destacado">Este es un aviso destacado.</p>
 ```
 
-**Tarea:** - `.aviso.destacado` debe tener un **borde de 2px sólido
-rojo**
+**Tarea:**
+
+- `.aviso.destacado` debe tener un **borde de 2px sólido rojo**
