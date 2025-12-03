@@ -1,0 +1,50 @@
+* {
+    color: #666;
+}
+
+#contenedor-principal {
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.info {
+    font-size: 18px;
+}
+
+p {
+    color:#003366;
+    line-height: 1.5px;
+}
+
+h1, .destacado {
+    color: purple;
+    font-weight: bold;
+}
+
+.panel p {
+    color: green;
+}
+
+.menu > li {
+    border-bottom: lightgray solid 2px;
+}
+
+.panel p:nth-child(2) {
+    font-style: italic;
+}
+
+.caja span + span {
+    color: red;
+}
+
+span[data-tipo^=icono-] {
+    border: 1px solid blue;
+}
+
+span[data-tipo*=pequeño] {
+    font-size: 22px;
+}
+
+span[data-tipo$=rojo] {
+    color: red;
+}
