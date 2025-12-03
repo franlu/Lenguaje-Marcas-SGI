@@ -10,13 +10,13 @@
 
 | Posición  | Etiquetas   |  Nombre    |
 |:----------:|:-----------:|:----------:|
-| 1º        | 31           | Ismael     |
-| 2º        | 30           | Diego      |
-| 3º        | 25           | Martín     |
-| 4º        | 24           | Raúl       |
-| 5º        | 23           | Jesús      |
+| 1º        | 38           | Ismael     |
+| 2º        | 36           | Jesús      |
+| 3º        | 33           | Diego      |
+| 4º        | 26           | Raúl       |
+| 5º        | 25           | Martín     |
 | 6º        | 21           | Juanjo     |
-| 7ª        | 18           | Javi       |
+| 7ª        | 20           | Javi       |
 | 8º        | 16           | Ahmed      |
 
 ## Ranking 24/25
