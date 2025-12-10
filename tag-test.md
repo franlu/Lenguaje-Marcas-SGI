@@ -10,6 +10,17 @@
 
 | Posición  | Etiquetas   |  Nombre    |
 |:----------:|:-----------:|:----------:|
+| 1º        | 62          | Ismael     |
+| 2º        | 56          | Jesús      |
+| 3º        | 56          | Diego      |
+| 4º        | 56          | Ahmed      |
+| 5º        | 50          | Martín     |
+| 6º        | 40          | Raúl       |
+| 7ª        | 36          | Javi       |
+| 8º        | 34          | Juanjo     |
+
+| Posición  | Etiquetas   |  Nombre    |
+|:----------:|:-----------:|:----------:|
 | 1º        | 38           | Ismael     |
 | 2º        | 36           | Jesús      |
 | 3º        | 33           | Diego      |
