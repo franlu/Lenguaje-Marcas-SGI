@@ -19,17 +19,6 @@
 | 7ª        | 36          | Javi       |
 | 8º        | 34          | Juanjo     |
 
-| Posición  | Etiquetas   |  Nombre    |
-|:----------:|:-----------:|:----------:|
-| 1º        | 38           | Ismael     |
-| 2º        | 36           | Jesús      |
-| 3º        | 33           | Diego      |
-| 4º        | 26           | Raúl       |
-| 5º        | 25           | Martín     |
-| 6º        | 21           | Juanjo     |
-| 7ª        | 20           | Javi       |
-| 8º        | 16           | Ahmed      |
-
 ## Ranking 24/25
 
 | Posición  | Etiquetas   |  Nombre    |
